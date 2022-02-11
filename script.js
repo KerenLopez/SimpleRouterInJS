@@ -14,3 +14,14 @@ function home(){
     app_div.appendChild(div);
 };
 
+function about(){
+    let div= document.createElement('div');
+    let link = document.createElement('a');
+    link.href = '#/';
+    link.innerText = 'Home';
+
+    div.innerHTML='1>About>1';
+    div.appendChild(link);
+
+    app_div.appendChild(div);
+}
