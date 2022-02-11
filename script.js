@@ -37,5 +37,13 @@ function route(path, template){
 };
 
 function template(name, templateFunction){
-    return tempplates[name]=templateFunction;
+    return templates[name]=templateFunction;
 };
+
+template('home', function(){
+    home();
+});
+
+template('about', function(){
+    about();
+});
