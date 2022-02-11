@@ -47,3 +47,7 @@ template('home', function(){
 template('about', function(){
     about();
 });
+
+route('/','home');
+route('/about', 'about');
+
