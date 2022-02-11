@@ -66,3 +66,6 @@ function router(evt){
     route();
 };
 
+window.addEventListener('load', router);
+window.addEventListener('hashchange', router);
+
