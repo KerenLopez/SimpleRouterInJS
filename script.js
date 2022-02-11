@@ -35,3 +35,7 @@ function route(path, template){
         return;
     };
 };
+
+function template(name, templateFunction){
+    return tempplates[name]=templateFunction;
+};
