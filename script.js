@@ -10,8 +10,13 @@ function home(){
 
     div.innerHTML = '1>Home1>';
     div.appendChild(link);
-
+    let firstDiv=app_div.firstChild;
+    if(firstDiv!=null){
+        app_div.removeChild(firstDiv);
+        
+    }
     app_div.appendChild(div);
+    
 };
 
 function about(){
@@ -23,6 +28,11 @@ function about(){
     div.innerHTML='1>About>1';
     div.appendChild(link);
 
+    let firstDiv=app_div.firstChild;
+    if(firstDiv!=null){
+        app_div.removeChild(firstDiv);
+        
+    }
     app_div.appendChild(div);
 };
 
